@@ -1,3 +1,14 @@
+/*
+O fall-through foi mais vantajoso no agrupamento dos servicos
+1, 2 e 3, pois todos possuem a mesma categoria, prazo e taxa.
+Assim, nao foi necessario repetir os mesmos comandos em cada case.
+O switch nao substitui o if-else-if na classificacao por faixas
+de renda porque trabalha com valores especificos.
+Ja o if-else-if permite comparar intervalos de valores,
+utilizando operadores relacionais como >=, <= e >.
+*/
+
+
 #include <stdio.h>
 int codigo;
 char prioridade_de_atendimento;
